@@ -1,0 +1,58 @@
+.footer {
+    padding: 50px $gap 70px;
+    text-align: center;  
+    background-color: $color-primary;
+  
+    &__container {
+      @extend %container;
+    }
+
+    &__social {
+        margin-bottom: $gap *2;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50px, max-content));
+        justify-content: center;
+
+        &::after {
+          position: absolute;
+          bottom: -20px;
+          left: calc(50% - 37.5px);
+          width: 75px;
+          height: 2px;
+          content: "";
+          background-color: rgba($color-light, 0.1) ;          
+        }
+
+        a {
+      transition: color 0.5s;
+      display: block;     
+      padding: 10px;
+
+      :focus,
+      :hover {
+        color: $color-accent;
+        transition: color 0.5s;
+      }
+    }
+      
+      .fab {
+      font-size: 36px;
+      }   
+    
+    }  
+
+    .span-text__top {
+      letter-spacing: 0.33em;
+      font-weight: 100;
+      margin-left: 0.5em;
+    }
+
+    .span-text__bottom {
+      letter-spacing: 0.05em;
+      font-weight: 700;
+      color: $color-gray-light;
+    }
+}
+
+    
