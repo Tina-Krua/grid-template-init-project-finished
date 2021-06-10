@@ -1222,7 +1222,12 @@ a {
   }
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "a1 a2" "a3 a2" "a4 a4" "a5 a6" "a5 a7" "a8 a9";
+    grid-template-areas: "a1 a2"
+ "a3 a2"
+ "a4 a4"
+ "a5 a6"
+ "a5 a7"
+ "a8 a9";
   }
 }
 
@@ -1238,7 +1243,9 @@ a {
   }
   .skills__container {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "a1 a1 a2 a3" "a4 a5 a5 a6" "a7 a8 a9 a6";
+    grid-template-areas: "a1 a1 a2 a3"
+ "a4 a5 a5 a6"
+ "a7 a8 a9 a6";
   }
   .info {
     padding-top: 100px;
@@ -1263,7 +1270,8 @@ a {
   }
   .posts__sections {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "d1 d1 d2 d3" "d4 d5 d6 d6";
+    grid-template-areas: "d1 d1 d2 d3"
+ "d4 d5 d6 d6";
   }
 }
 
@@ -1282,7 +1290,11 @@ a {
   }
   .skills__container {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "a1 a1 a2" "a3 a4 a4" "a5 a5 a6" "a7 a8 a6" "a7 a9 a9";
+    grid-template-areas: "a1 a1 a2"
+ "a3 a4 a4"
+ "a5 a5 a6"
+ "a7 a8 a6"
+ "a7 a9 a9";
   }
   .info {
     padding-top: 80px;
@@ -1313,7 +1325,9 @@ a {
   }
   .posts__sections {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "d1 d1 d2" "d3 d4 d4 " "d5 d5 d6";
+    grid-template-areas: "d1 d1 d2"
+ "d3 d4 d4 "
+ "d5 d5 d6";
   }
 }
 
@@ -1340,7 +1354,12 @@ a {
   }
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "a1 a2" "a3 a2" "a4 a4" "a5 a6" "a5 a7" "a8 a9";
+    grid-template-areas: "a1 a2"
+ "a3 a2"
+ "a4 a4"
+ "a5 a6"
+ "a5 a7"
+ "a8 a9";
   }
   .info {
     padding-top: 60px;
@@ -1378,9 +1397,14 @@ a {
   .form__container {
     grid-template-columns: 1fr 1fr;
   }
+  .form-item:nth-of-type(1) {
+    grid-column: 1 / span 2;
+  }
   .posts__sections {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "d1 d2" "d3 d4" "d5 d6";
+    grid-template-areas: "d1 d2"
+ "d3 d4"
+ "d5 d6";
   }
 }
 
@@ -1426,7 +1450,15 @@ a {
     grid-gap: 20px;
     padding-bottom: 20px;
     grid-template-columns: 1fr;
-    grid-template-areas: "a1" "a2" "a3" "a4" "a5" "a6" "a7" "a8" "a9";
+    grid-template-areas: "a1"
+ "a2"
+ "a3"
+ "a4"
+ "a5"
+ "a6"
+ "a7"
+ "a8"
+ "a9";
   }
   .skills .skill-item__title {
     font-size: 1.125rem;
@@ -1444,7 +1476,12 @@ a {
   }
   .posts__sections {
     grid-template-columns: 1fr;
-    grid-template-areas: "d1" "d2" "d3" "d4" "d5" "d6";
+    grid-template-areas: "d1"
+ "d2"
+ "d3"
+ "d4"
+ "d5"
+ "d6";
   }
   .btn-accent {
     width: 100%;
