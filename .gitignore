@@ -2,10 +2,3 @@ node_modules/
 .idea/
 .DS_Store
 .vscode
-assets/img/
-libs/
-.libs-package-json
-.yarnrc
-gulpfile.js
-package.json
-yarn.lock
